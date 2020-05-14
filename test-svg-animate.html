@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="" class="silex-runtime"><head>
+    <meta charset="UTF-8">
+    <!-- generator meta tag -->
+    <!-- leave this for stats and Silex version check -->
+    <meta name="generator" content="Silex v2.2.10">
+    <!-- End of generator meta tag -->
+    <script type="text/javascript" src="https://preprod.silex.me/static/2.10/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://preprod.silex.me/static/2.10/jquery-ui.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://preprod.silex.me/static/2.10/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="https://preprod.silex.me/static/2.10/front-end.js" data-silex-static=""></script>
+    <link rel="stylesheet" href="https://preprod.silex.me/static/2.10/normalize.css" data-silex-static="">
+    <link rel="stylesheet" href="https://preprod.silex.me/static/2.10/front-end.css" data-silex-static="">
+
+    <style type="text/css" class="silex-style">body * {box-sizing: border-box;}html, body {height: 100%; margin: 0; padding: 0; font-family: sans-serif; color: #fff;}.wrapper {background: #1177C3; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; padding: 1em;}.title {margin: 0 0 1em; padding: 0; font: normal 1.2em sans-serif; text-transform: uppercase; letter-spacing: 2px;}.controls {margin: 1rem 0 0;}button {font: bold .875em sans-serif; background-color: hsl(200,30%,90%); color: #454545; padding: .4em .6em .3em; border: none; text-transform: uppercase; border-radius: .4em; margin: 0 .5em; box-shadow: 0px 2px 10px hsla(0,0%,0%,.3);}button:hover {background-color: #fff;}button:active {background-color: hsl(200,30%,90%); transform: translateY(2px); box-shadow: 0px 0px 2px hsla(0,0%,0%,.3);}svg .svg-elem-1 {stroke-dashoffset: 541.6063842773438px; stroke-dasharray: 541.6063842773438px; -webkit-transition: stroke-dashoffset 1s ease 0s; transition: stroke-dashoffset 1s ease 0s;}svg.active .svg-elem-1 {stroke-dashoffset: 0;}svg .svg-elem-2 {stroke-dashoffset: 691.4946899414062px; stroke-dasharray: 691.4946899414062px; -webkit-transition: stroke-dashoffset 1s ease .1s; transition: stroke-dashoffset 1s ease .1s;}svg.active .svg-elem-2 {stroke-dashoffset: 0;}svg .svg-elem-3 {stroke-dashoffset: 408.0810852050781px; stroke-dasharray: 408.0810852050781px; -webkit-transition: stroke-dashoffset 1s ease .2s; transition: stroke-dashoffset 1s ease .2s;}svg.active .svg-elem-3 {stroke-dashoffset: 0;}svg .svg-elem-4 {stroke-dashoffset: 230.76832580566406px; stroke-dasharray: 230.76832580566406px; -webkit-transition: stroke-dashoffset 1s ease .30000000000000004s; transition: stroke-dashoffset 1s ease .30000000000000004s;}svg.active .svg-elem-4 {stroke-dashoffset: 0;}svg .svg-elem-5 {stroke-dashoffset: 844.267333984375px; stroke-dasharray: 844.267333984375px; -webkit-transition: stroke-dashoffset 1s ease .4s; transition: stroke-dashoffset 1s ease .4s;}svg.active .svg-elem-5 {stroke-dashoffset: 0;}svg .svg-elem-6 {stroke-dashoffset: 151.95425415039062px; stroke-dasharray: 151.95425415039062px; -webkit-transition: stroke-dashoffset 1s ease .5s; transition: stroke-dashoffset 1s ease .5s;}svg.active .svg-elem-6 {stroke-dashoffset: 0;}svg .svg-elem-7 {stroke-dashoffset: 55.696048736572266px; stroke-dasharray: 55.696048736572266px; -webkit-transition: stroke-dashoffset 1s ease .6000000000000001s; transition: stroke-dashoffset 1s ease .6000000000000001s;}svg.active .svg-elem-7 {stroke-dashoffset: 0;}svg .svg-elem-8 {stroke-dashoffset: 513.3313903808594px; stroke-dasharray: 513.3313903808594px; -webkit-transition: stroke-dashoffset 1s ease .7000000000000001s; transition: stroke-dashoffset 1s ease .7000000000000001s;}svg.active .svg-elem-8 {stroke-dashoffset: 0;}svg .svg-elem-9 {stroke-dashoffset: 242.9443359375px; stroke-dasharray: 242.9443359375px; -webkit-transition: stroke-dashoffset 1s ease .8s; transition: stroke-dashoffset 1s ease .8s;}svg.active .svg-elem-9 {stroke-dashoffset: 0;}</style>
+    <script type="text/javascript" class="silex-script">var wrapper = document.querySelector('.wrapper svg')
+var btnDraw = document.querySelector('.btn-draw')
+var btnErase = document.querySelector('.btn-erase')
+
+// We are only adding and removing the 'active' class,
+// the entire animation is defined in the CSS code
+function draw() {
+  wrapper.classList.add('active')
+}
+
+function erase() {
+  wrapper.classList.remove('active')
+}
+
+// Add handlers to our buttons
+btnDraw.addEventListener('click', draw, false)
+btnErase.addEventListener('click', erase, false)
+
+// Play draw animation once
+setTimeout(draw, 300)</script>
+    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1);}.silex-id-1478366444112-1 {top: 100px; background-color: transparent; min-height: 100px;}.silex-id-1478366444112-0 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1474394621033-3 {top: 5px; left: 0px;}.silex-id-1474394621032-2 {min-height: 600px; background-color: rgba(135,226,176,1);}.silex-id-1589443375343-1 {width: 811px; min-height: 563px; background-color: transparent; top: 12px; left: 140px;}.silex-id-1478366450713-3 {top: 100px; background-color: transparent;}.silex-id-1478366450713-2 {min-height: 100px; background-color: transparent; width: 1200px;}.silex-id-1442914737143-3 {min-height: 53px; width: 349px; top: 29px; left: 430px;}</style>
+    <title></title>
+    <script type="text/json" class="silex-json-styles">[{"fonts":[{"family":"'Roboto', sans-serif","href":"https://fonts.googleapis.com/css?family=Roboto"}],"dataSources":{},"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"600px","background-color":"rgba(135,226,176,1)","top":"","left":"","height":""},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"53px","width":"349px","top":"29px","left":"430px","height":""},"silex-id-1478366444112-0":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366444112-1":{"top":"100px","background-color":"transparent","min-height":"100px","left":"","height":""},"silex-id-1478366450713-2":{"min-height":"100px","background-color":"transparent","width":"1200px","top":"","left":"","height":""},"silex-id-1478366450713-3":{"top":"100px","background-color":"transparent"},"silex-id-1589443375343-1":{"width":"811px","min-height":"563px","background-color":"transparent","top":"12px","left":"140px"}},"mobile":{},"prodotypeData":{"component":{},"style":{"all-style":{"className":"all-style","templateName":"text","displayName":"All style","styles":{"desktop":{"normal":{"className":"all-style","pseudoClass":"normal","All":{"font-family":"'Roboto', sans-serif"}}}}}}}}]</script>
+
+    
+<style class="silex-prodotype-style" type="text/css" data-style-id="all-style">.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}</style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="website-width" content="1200"><style type="text/css" class="silex-style-settings">.website-width {width: 1200px;}</style><meta name="hostingProvider" content="unifile"><!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove --></head>
+
+<body data-silex-id="body-initial" class="body-initial all-style enable-mobile prevent-draggable prevent-resizable prevent-selectable silex-runtime" data-silex-type="container-element" style="">
+    <div class="silex-pages">
+        
+
+        <a id="page-page-1" data-silex-type="page-element" class="page-element" href="#!page-page-1">Page 1</a></div>
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable" data-silex-id="silex-id-1478366444112-1" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366444112-0"></div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable" data-silex-id="silex-id-1474394621033-3" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1474394621032-2"><div data-silex-type="html-element" class="editable-style silex-id-1589443375343-1 html-element" data-silex-id="silex-id-1589443375343-1" style=""><div class="silex-element-content">    <path d="M92.1724138 158.68617c.4974878.427077 4.8954916.758624 7.7692775 0 .6456757-.174202 1.2913517-.348405 1.9370267-.516988 2.99022-.79234 5.059557-2.686089 7.769278-4.124664 2.672674-1.416097 4.366249-3.416615 4.366249-6.698365 0-2.877149 5.133651 1.876891 7.763985 2.57932 2.307497.612519 5.641724-.067433 7.763985-.516987 2.498024-.533847 5.086019-3.47281 7.282375-4.636033.322838-.174202.645676-.348405.968513-.516988M133.137931 130.302186c1.142633-.601459 7.559365.038983 10.18319-.512354 4.374804-.918895 8.659678-2.405835 13.097962-3.575339 3.274491-.863205 6.78174-3.263471 9.701803-5.106831.618926-.389835 1.296042-.679426 1.941418-1.019139 5.379898-2.834654 10.897335-5.853086 15.039381-10.213663 2.036638-2.14409 5.453958-3.798102 7.760384-5.619186M135.931034 133.09307c3.246339-3.079916 9.145368-.928541 13.734096-.928541 4.749173 0 9.98503-.867654 14.712811-1.862157 3.674191-.776321 7.278856-1.197463 10.787255-1.862156 3.962992-.750952 7.942029-.740804 11.279286-2.32389 1.246123-.593658 3.144723-.796618 4.417587-1.395349M138.724138 138.673977c1.863207-.962501 10.474532 0 14.200945 0 4.676702 0 9.134518-.508908 13.704446-.508908 3.726414 0 8.654035-1.095259 12.241642-2.02457 1.302643-.337428 2.610625-.680388 3.913268-1.017816 4.121477-1.067601 8.504551-.934843 12.732802-2.030102M87.468645 147.051402c.6496158-.152127-5.3150384 3.534422-11.8165652 5.583069-4.8264844 1.521272-9.4060074 3.853889-14.2754416 5.577997-5.2828261 1.871165-9.9375113 2.510099-15.2632872 4.188569-3.151442.988827-6.6035326 1.090245-9.8462429 1.855952-3.3125037.78092-6.8773376.933047-10.3401657.933047-2.8346871 0-5.7821175.461452-8.8583973.461452-4.1929748 0-8.02624495-.496948-11.81656529-1.394499-.81067758-.187624-1.64283006-.309325-2.45887636-.461453M89.3793103 148.917333c-1.2205406-.308276-9.3628312 6.100608-11.7824995 7.934036-2.7408631 2.076802-8.0941114 3.666855-11.2900006 4.959448-3.4260789 1.384535-6.6166149 2.352628-9.8178574 3.969722-3.4635516 1.746894-7.0984072 3.461338-10.8028551 4.959448-3.8757517 1.568419-7.8532152 3.472155-11.7771462 4.461882-3.5063777.886967-6.9324566 1.130343-10.3103562 1.984861-3.8650453.973501-8.5812571.989726-12.762144.989726-.4122001 0-1.91110963.3894-2.45714096.497567M92.1724138 150.767c-.2035121 0-9.7043148 8.14069-11.7822807 9.946719-3.5293286 3.064284-7.8834169 5.48317-11.7876363 7.462751-3.9845531 2.012123-7.6477713 4.289997-11.7876363 5.965862-2.7206357 1.100973-5.2377593 2.652097-7.856639 3.980857-4.664712 2.359227-8.8152882 4.756419-13.2604214 7.457328-4.2844657 2.603285-8.445753 5.271652-12.7677078 7.462751-.6587366.330834-1.3121176.661668-1.9654986.992502-2.833103 1.431807-5.6447836 2.608709-8.3493526 3.980857-2.4207231 1.22029-5.69298382 1.811453-8.34935256 2.483968-.50342472.124741-.98007153.330834-1.47278509.498963" class="svg-elem-8"></path>
+</div></div></div>
+    </div>
+    <div data-silex-type="container-element" class="prevent-draggable container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable" data-silex-id="silex-id-1478366450713-3" style="">
+        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 silex-container-content container-element prevent-draggable website-width" data-silex-id="silex-id-1478366450713-2">
+
+            <div data-silex-id="silex-id-1442914737143-3" class="editable-style silex-id-1442914737143-3 text-element" data-silex-type="text-element" style="">
+                <div class="silex-element-content normal">
+                    <br>
+                    <div style="text-align: center;"><a href="//www.silex.me/">Powered by Silex</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
